@@ -1,6 +1,8 @@
-CHALENGE 2
+# CHALENGE
 
-
+## Section 2
+---
+HTML Code
 ```
 ...
 <div id="counter">
@@ -8,5 +10,13 @@ CHALENGE 2
 	<span id="count-number">0</span>
 	<button id="btn-increment" onclick="increClick()">+</button>
 </div>
+...
+```
+
+JS Code
+```
+...
+let btnDecre = document.getElementById("btn-decrement")
+let btnIncre = document.getElementById("btn-increment")
 ...
 ```
