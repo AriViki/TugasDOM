@@ -167,3 +167,66 @@ button.firstChild.after('+++Section4 after()');
 ...
 ```
 ---
+
+## Section 5
+---
+HTML Code
+```
+...
+<div id="counter2">
+	<h3 id="section2-header2">Section 5</h3>
+	<button id="btn-decrement2" class="decrement2">-</button>
+	<span id="count-number2">0</span>
+	<button id="btn-increment2" name="increment2">+</button>
+</div>
+...
+```
+
+JS Code
+```
+...
+let btnS5 = document.querySelector('#counter2');
+    if (btnS5) {
+        btnS5.setAttribute('-', '+');
+        btnS5.setAttribute('disabled', '');
+    }
+...
+```
+---
+HTML Code
+```
+...
+<div id="counter2">
+	<h3 id="section2-header2">Section 5</h3>
+	<button id="btn-decrement2" class="decrement2">-</button>
+	<span id="count-number2">0</span>
+	<button id="btn-increment2" name="increment2">+</button>
+</div>
+...
+```
+JS Code
+```
+...
+let get_atribute = document.querySelector('#counter2');
+	if (get_atribute) {
+		let h3_atribute = get_atribute.getAttribute('h3_atribute');
+		console.log(h3_atribute);
+	}
+...
+```
+---
+HTML Code
+```
+...
+<body>
+	...
+</body>
+...
+```
+JS Code
+```
+...
+const button = document.querySelector('div4');
+button.firstChild.after('+++Section4 after()');
+...
+```

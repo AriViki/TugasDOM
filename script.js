@@ -45,3 +45,16 @@ console.log(innerHtmlDiv.innerHTML);
 
 const button = document.querySelector('div4');
 button.firstChild.after('+++Section4 after()');
+
+// Section 5
+console.log("Section 5");
+let btnS5 = document.querySelector('#counter2');
+    if (btnS5) {
+        btnS5.setAttribute('disabled', '');
+    }
+
+let get_atribute = document.querySelector('#counter2');
+	if (get_atribute) {
+		let h3_atribute = get_atribute.getAttribute('h3_atribute');
+		console.log(h3_atribute);
+	}
